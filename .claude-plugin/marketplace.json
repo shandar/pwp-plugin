@@ -1,0 +1,33 @@
+{
+  "name": "pwp-marketplace",
+  "owner": {
+    "name": "Shandar Junaid",
+    "email": "hello@affordance.design"
+  },
+  "metadata": {
+    "description": "Project Workflow Protocol — systematic skills for professional software development with Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "pwp",
+      "source": "./",
+      "description": "Project Workflow Protocol — 11 systematic skills for debugging, code review, security audit, refactoring, migration, API design, performance optimization, project bootstrapping, testing strategy, deployment, and documentation lifecycle.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Shandar Junaid",
+        "email": "hello@affordance.design"
+      },
+      "homepage": "https://github.com/shandar/pwp-plugin",
+      "repository": "https://github.com/shandar/pwp-plugin",
+      "license": "MIT",
+      "keywords": [
+        "workflow", "protocol", "debugging", "code-review", "security",
+        "refactoring", "migration", "api-design", "performance",
+        "bootstrap", "testing", "deployment", "documentation"
+      ],
+      "category": "development-workflow",
+      "tags": ["workflow", "best-practices", "engineering", "protocol"]
+    }
+  ]
+}
